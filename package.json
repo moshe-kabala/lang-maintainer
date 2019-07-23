@@ -1,6 +1,6 @@
 {
   "name": "lang-maintainer",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "index.js",
   "publishConfig": {
@@ -9,6 +9,10 @@
   "bin": {"lang-gen": "./"},
   "scripts": {
     "release": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moshe-kabala/lang-maintainer"
   },
   "keywords": [],
   "author": "Moshe Kabala",
