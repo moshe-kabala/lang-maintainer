@@ -8,7 +8,7 @@
   },
   "bin": {"lang-gen": "./index.js"},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm publish --access=public"
   },
   "keywords": [],
   "author": "Moshe Kabala",
