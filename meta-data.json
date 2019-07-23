@@ -1,0 +1,85 @@
+{
+  "indexes": [
+    [
+      "some string sec 1 f 1",
+      [
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/bala/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/bala/bla2/"
+        }
+      ]
+    ],
+    [
+      "some string sec 1 f 2",
+      [
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/bala/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 1,
+          "path": "test-files/bala/bla2/"
+        }
+      ]
+    ],
+    [
+      "some string",
+      [
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/bala/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/bala/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/bala/bla2/"
+        },
+        {
+          "fileName": "text.js",
+          "section": 2,
+          "path": "test-files/bala/bla2/"
+        }
+      ]
+    ]
+  ],
+  "texts": {
+    "some string sec 1 f 1": "some string sec 1 f 1",
+    "some string sec 1 f 2": "some string sec 1 f 2",
+    "some string": "some string"
+  },
+  "groups": []
+}

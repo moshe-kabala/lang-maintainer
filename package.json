@@ -1,0 +1,13 @@
+{
+  "name": "lang-maintainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"lang-gen": "./index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Moshe Kabala",
+  "license": "MIT"
+}
