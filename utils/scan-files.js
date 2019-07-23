@@ -15,7 +15,7 @@ const scanFiles = (_folderPath, ignoreFiles = []) => {
         path = path.substring(1);
       }
 
-      return { fileName, path };
+      return { origin: _folderPath, fileName, path };
     });
   }
 

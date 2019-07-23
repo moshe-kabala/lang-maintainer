@@ -5,7 +5,6 @@ const JSHandler = "js";
 // const configurationHandler = "groupfiles"
 // const JSHandler = extractAndParseJsonText;
 
-
 const fileHandlerMap = {
   [JSHandler]: jsHandler
 };
@@ -23,10 +22,14 @@ class Handler {
     }
   }
 
-  run({ fileName, path }, store) {
+  run({ fileName, path = "", origin = "" }, store) {
     const handler = this.get(fileName);
     if (!handler) return;
-    const fileText = fs.readFileSync(path + fileName).toString();
+    if (origin && origin[origin.length -1] != "/") {
+      origin+="/"
+    }
+    console.log(`Parse ${origin + path + fileName}`)
+    const fileText = fs.readFileSync(origin + path + fileName).toString();
     handler({ fileName, fileText, path }, store);
   }
 }

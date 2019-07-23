@@ -1,12 +1,12 @@
 {
   "name": "lang-maintainer",
-  "version": "1.0.1",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "bin": {"lang-gen": "./index.js"},
+  "bin": {"lang-gen": "./"},
   "scripts": {
     "release": "npm publish --access=public"
   },
