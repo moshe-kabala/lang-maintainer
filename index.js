@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const fs = require("fs");
 
 const Handler = require("./handlers/handler");
