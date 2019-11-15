@@ -1,5 +1,10 @@
+
+
+# Intrudaction
+The package helps to collect distrbuted texts in a big project to translate them in only one file, reduce the duplicate text, mange text changes along the time, and deploy the translated result in the project
+
 # Installation Guid
-install the script globaly by running
+Install the script globaly by running
 > npm i -g lang-maintainer
 
 
